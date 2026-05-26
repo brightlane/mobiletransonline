@@ -6,168 +6,34 @@
     <title>Subscription E-Commerce Blueprint Hub | brightlane</title>
     <meta name="description" content="Access specialized programmatic blueprints and insights designed to help build high-growth recurring revenue storefronts effortlessly.">
     <style>
-        :root { 
-            --primary: #FF2E93; 
-            --dark: #0F172A; 
-            --muted: #64748B; 
-            --bg-light: #FAFAFA; 
-        }
-        body { 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
-            color: var(--dark); 
-            line-height: 1.6; 
-            margin: 0; 
-            padding: 0; 
-            background-color: #fff;
-        }
-        header { 
-            padding: 1.25rem 2rem; 
-            border-bottom: 1px solid #E2E8F0; 
-            display: flex; 
-            justify-content: space-between; 
-            align-items: center; 
-            background: #fff; 
-        }
-        .logo { 
-            font-size: 1.4rem; 
-            font-weight: 700; 
-            text-decoration: none; 
-            color: var(--dark); 
-        }
-        .logo span { 
-            color: var(--primary); 
-        }
-        .container { 
-            max-width: 1000px; 
-            margin: 0 auto; 
-            padding: 0 1.5rem; 
-        }
-        .hero { 
-            padding: 5rem 0 4rem; 
-            text-align: center; 
-            background: linear-gradient(180deg, #FFF0F6 0%, #FFF 100%); 
-        }
-        h1 { 
-            font-size: 3rem; 
-            font-weight: 800; 
-            letter-spacing: -0.02em; 
-            margin-bottom: 1.5rem; 
-            color: var(--dark);
-        }
-        .hero p { 
-            font-size: 1.25rem; 
-            color: var(--muted); 
-            max-width: 700px; 
-            margin: 0 auto 2.5rem; 
-        }
-        .btn { 
-            display: inline-block; 
-            background: var(--primary); 
-            color: white; 
-            padding: 1rem 2.25rem; 
-            font-weight: 600; 
-            text-decoration: none; 
-            border-radius: 6px; 
-            box-shadow: 0 4px 14px rgba(255, 46, 147, 0.25); 
-            transition: opacity 0.2s; 
-        }
-        .btn:hover { 
-            opacity: 0.9; 
-        }
-        .hub-section { 
-            display: grid; 
-            grid-template-columns: 1fr 1fr; 
-            gap: 4rem; 
-            margin: 4rem 0; 
-        }
-        @media(max-width: 768px) { 
-            .hub-section { grid-template-columns: 1fr; gap: 2.5rem; } 
-            h1 { font-size: 2.2rem; }
-        }
-        .column-title {
-            font-size: 1.5rem;
-            font-weight: 700;
-            border-bottom: 2px solid #E2E8F0;
-            padding-bottom: 0.5rem;
-            margin-bottom: 1.5rem;
-        }
-        ul { 
-            list-style: none; 
-            padding: 0; 
-            margin: 0;
-        }
-        li { 
-            margin-bottom: 1rem; 
-            padding-left: 1.25rem;
-            position: relative;
-        }
-        li::before {
-            content: "→";
-            position: absolute;
-            left: 0;
-            color: var(--primary);
-            font-weight: bold;
-        }
-        li a { 
-            color: var(--dark); 
-            text-decoration: none; 
-            font-weight: 500; 
-            transition: color 0.2s;
-        }
-        li a:hover { 
-            color: var(--primary);
-            text-decoration: underline; 
-        }
-        footer { 
-            background: var(--dark); 
-            color: #94A3B8; 
-            padding: 3rem 0; 
-            text-align: center; 
-            font-size: 0.85rem; 
-            border-top: 1px solid #E2E8F0;
-        }
+        :root { --primary: #FF2E93; --dark: #0F172A; --muted: #64748B; }
+        body { font-family: -apple-system, sans-serif; color: var(--dark); line-height: 1.6; margin: 0; padding: 0; }
+        .container { max-width: 900px; margin: 0 auto; padding: 4rem 1.5rem; }
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .subtitle { font-size: 1.2rem; color: var(--muted); margin-bottom: 3rem; }
+        .hub-section { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 2rem; }
+        @media(max-width: 768px) { .hub-section { grid-template-columns: 1fr; } }
+        ul { list-style: none; padding: 0; }
+        li { margin-bottom: 0.75rem; }
+        a { color: var(--primary); text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-
-    <header>
-        <a href="./" class="logo">bright<span>lane</span></a>
-        <a href="https://join.subbly.co/507vschv6rlq" target="_blank" rel="noopener sponsored" class="btn" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Start Trial</a>
-    </header>
-
-    <main>
-        <section class="hero">
-            <div class="container">
-                <h1>Subscription E-Commerce <br>Blueprint Hub</h1>
-                <p>Programmatic setup guides, architectural matrices, and daily operational strategies engineered to scale recurring retail revenue models.</p>
-                <a href="https://join.subbly.co/507vschv6rlq" target="_blank" rel="noopener sponsored" class="btn">Build Your Storefront Free</a>
+    <main class="container">
+        <h1>brightlane Subscription Optimization Directory</h1>
+        <p class="subtitle">Programmatic blueprints and daily tactical guides engineered to skyrocket subscriber retention.</p>
+        
+        <div class="hub-section">
+            <div>
+                <h2>Target Deployment Blueprints</h2>
+                <ul><li><a href="pages/subscription-box-platform.html">Subscription Box Platform Blueprint</a></li><li><a href="pages/recurring-subscription-billing.html">Recurring Subscription Billing Blueprint</a></li></ul>
             </div>
-        </section>
-
-        <div class="container">
-            <section class="hub-section">
-                <div>
-                    <div class="column-title">Deployment Blueprints</div>
-                    <ul id="blueprints-list">
-                        <li><a href="pages/subscription-box-platform.html">Subscription Box Platform Setup Guide</a></li>
-                        <li><a href="pages/recurring-subscription-billing.html">Recurring Subscription Billing Architecture Blueprint</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <div class="column-title">Daily Optimization Insights</div>
-                    <ul id="blog-list">
-                        <li><a href="blog/how-to-launch-a-profitable-subscription-box-business.html">How to Launch a Profitable Subscription Box Business</a></li>
-                    </ul>
-                </div>
-            </section>
+            <div>
+                <h2>Daily Optimization Insights</h2>
+                <ul><li><a href="blog/how-to-launch-a-profitable-subscription-box-business.html">How To Launch A Profitable Subscription Box Business</a></li></ul>
+            </div>
         </div>
     </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 brightlane. Independent promotional directory running monetization tracks for high-growth e-commerce operators.</p>
-        </div>
-    </footer>
-
 </body>
 </html>
